@@ -27,8 +27,8 @@ export default class Login extends Component {
       <div className="wrapper">
         <h1>Login</h1>
         <div className="form">
-          <input type="email" placeholder="Enter Email" required />
-          <input type="password" placeholder="Enter Password" required />
+          <input className="email" type="email" placeholder="Enter Email" required />
+          <input className="password" type="password" placeholder="Enter Password" required />
           <button onClick={this.handleSubmit}>Login</button>
         </div>
       </div>

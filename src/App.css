@@ -4,11 +4,8 @@
   margin: 0;
   padding: 0;
   background-color: #131819;
+  color: #ffffff;
 }
-.App {
-  text-align: center;
-}
-
 /* LOGIN PAGE STYLES */
 
 .wrapper {
@@ -16,7 +13,7 @@
   border: 1px groove white;
   padding: 8%;
   display: block;
-  align-content: center;
+  text-align: center;
   margin: auto;
   margin-top: 10%;
   border-radius: 12px;
@@ -39,7 +36,7 @@ h1 {
   color: white;
 }
 
-input {
+.form input{
   border: 1px solid white;
   background-color: #131819;
   color: #ef7917;
@@ -73,7 +70,21 @@ button:hover{
 
 /* NAVIGATION BAR */
 nav{
-  height:65px;
+  height:75px;
   width: 100%;
   background-color: #706c61;
+  position: fixed;
+}
+.username{
+  font-size: 50px;
+  background-color: transparent;
+  margin: 10px;
+  padding-top: 5px;
+  /* display: inline-block; */
+  display: inline-flex;
+}
+
+.search-box{
+  display: inline-block;
+  float: left;
 }

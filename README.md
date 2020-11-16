@@ -8,8 +8,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - User can logout itself.
 
 ###  Installation
+
 To install all dependencies, Run:
-$ yarn add
+
+$ `yarn add`
 
 You will also see any lint errors in the console.
 

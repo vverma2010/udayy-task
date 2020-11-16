@@ -11,23 +11,38 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To install all dependencies, Run:
 
-$ `yarn add`
+### `yarn add`
 
-You will also see any lint errors in the console.
+###  Command to start app:
 
-### `yarn test`
+### `yarn start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+It will start your development server.
 
-### `yarn build`
+### Usage Instructions:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Login with your credentials.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##### NOTE: Here we don't have any sign-up functionality because of which we can't use proper log-in functionality. To overcome this, I have just hard-coded the form submit function to redirect user to homepage.To log-in just follow the below innstructions:
+1) Enter any random username.
+2) Enter any random password.
+3) Click "Login" button.
+###### It will redirect you to the homepage.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* In navigation bar, there are two input boxes. User can enter urls there two get result in the attached frames below.
 
-### `yarn eject`
+##### NOTE: Here we are not using any custom search bar. We are just rendering the input URL in their respective frames. So, due to web security boundations we can't search most of the famous URLs here. 
+##### So here are some suggested URLs which you can try:
+- http://car.com
+- http://bike.com
+- http://random.com
+- http://chat.com
+###### You can try some other random URLs like I mentioned above.
+
+* You can Logout using "Logout" button which is present in the rightmost corner of navigation bar. It will redirect you back to the login page.
+
+
+
+
+### `I hope you like it!!`
+### `Your precious feedbacks are most welcome.`

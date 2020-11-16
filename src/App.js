@@ -9,8 +9,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isLoggedIn: false, //here if we setting it to "true" to automatically redirect to the homepage
-      //we can leave it to be handled by code itself if we use complete signup functionality
+      isLoggedIn: false, 
     };
   }
   render() {

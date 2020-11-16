@@ -20,7 +20,7 @@ export default class Home extends Component {
             <input
               type="url"
               target="search1"
-              placeholder="search here..."
+              placeholder="Search here..."
               onChange={(e) => this.setState({ url1: e.target.value })}
             />
           </div>
@@ -28,7 +28,7 @@ export default class Home extends Component {
             <input
               type="search"
               target="search2"
-              placeholder="search here..."
+              placeholder="Search here..."
               onChange={(e) => this.setState({ url2: e.target.value })}
             />
           </div>

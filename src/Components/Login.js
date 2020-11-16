@@ -6,6 +6,8 @@ export default class Login extends Component {
     super(props);
     this.state = {
       isLoggedIn: false,
+      username: "",
+      password: "",
     };
   }
 
@@ -17,18 +19,28 @@ export default class Login extends Component {
 
   render() {
     const { isLoggedIn } = this.state;
-    console.log(isLoggedIn);
 
-    if(isLoggedIn) {
-      return <Redirect to= '/home' />;
+    if (isLoggedIn) {
+      return <Redirect to="/home" />;
     }
 
     return (
       <div className="wrapper">
         <h1>Login</h1>
         <div className="form">
-          <input className="email" type="email" placeholder="Enter Email" required />
-          <input className="password" type="password" placeholder="Enter Password" required />
+          <input
+            className="email"
+            type="text"
+            placeholder="Enter Username"
+            required
+            onChange={(e) => this.setState({ username: e.target.value })}
+          />
+          <input
+            className="password"
+            type="password"
+            placeholder="Enter Password"
+            required
+          />
           <button onClick={this.handleSubmit}>Login</button>
         </div>
       </div>

@@ -6,6 +6,7 @@
   background-color: #131819;
   color: #ffffff;
 }
+
 /* LOGIN PAGE STYLES */
 
 .wrapper {
@@ -26,7 +27,6 @@ h1 {
   color: white;
 }
 .form label {
-  /* margin-left: 18px; */
   margin-top: 10px;
   font-size: 18px;
   display: flex;
@@ -42,7 +42,6 @@ h1 {
   color: #ef7917;
   box-sizing: border-box;
   border-radius: 6px;
-  /* width: 100%; */
   height: 40px;
   margin-top: 20px;
   padding: 9px;
@@ -80,6 +79,7 @@ button:hover {
   background-color: transparent;
   margin: 10px;
   padding-top: 5px;
+  margin-right: 4%;
 }
 
 .search-box {
@@ -90,13 +90,13 @@ button:hover {
 }
 .search-box input {
   background: transparent;
-  border: 1px solid #131819;
+  border: 2px solid #131819;
   box-sizing: border-box;
   border-radius: 10px;
   height: 40px;
   width: 50%;
   font-size: 16px;
-  padding-left: 25px;
+  padding: 25px;
   box-sizing: border-box;
   flex-grow: 0.8;
 }
@@ -127,14 +127,68 @@ a {
   width: 100%;
   height: 100%;
 }
-.frame-container .frame-1{
-  width: 49.78%;
-  height:92vh;
-  background-color:red; 
+.frame-container .frame-1 {
+  height: 92vh;
+  background-color: blue;
 }
-.frame-container .frame-2{
-  width: 49.78%;
-  height:92vh;
-  background-color:green;
+.frame-container .frame-2 {
+  height: 92vh;
   float: right;
+  background-color: Red;
+}
+
+/* RESPONSIVENESS CONTROL */
+@media only screen and (max-width: 360px) {
+  .frame-1 {
+    width: 48.5vw;
+  }
+  .frame-2 {
+    width: 48.5vw;
+  }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 614px) {
+  .frame-1 {
+    width: 48.9vw;
+    background-color: red;
+  }
+  .frame-2 {
+    width: 48.8vw;
+  }
+}
+
+@media only screen and (min-width: 615px) and (max-width: 768px) {
+  .frame-1 {
+    width: 49.2vw;
+  }
+  .frame-2 {
+    width: 49.2vw;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+  .frame-1 {
+    width: 49.4vw;
+  }
+  .frame-2 {
+    width: 49.5vw;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .frame-1 {
+    width: 49.4vw;
+  }
+  .frame-2 {
+    width: 49.5vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .frame-1 {
+    width: 49.3vw;
+  }
+  .frame-2 {
+    width: 49.1vw;
+  }
 }

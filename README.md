@@ -29,7 +29,7 @@ It will start your development server.
 3) Click "Login" button.
 ###### It will redirect you to the homepage.
 
-* In navigation bar, there are two input boxes. User can enter urls there two get result in the attached frames below.
+* In navigation bar, there are two input boxes. User can enter URLs there two get result in the attached frames below.
 
 ##### NOTE: Here we are not using any custom search bar. We are just rendering the input URL in their respective frames. So, due to web security boundations we can't search most of the famous URLs here. 
 ##### So here are some suggested URLs which you can try:
@@ -38,6 +38,7 @@ It will start your development server.
 - http://random.com
 - http://chat.com
 ###### You can try some other random URLs like I mentioned above.
+###### Remember adding `http://` in every URL.
 
 * You can Logout using "Logout" button which is present in the rightmost corner of navigation bar. It will redirect you back to the login page.
 
